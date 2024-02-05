@@ -92,7 +92,7 @@ fieldset {
 .search-form__label {
   display: flex;
   width: fit-content;
-  align-items: baseline;
+  align-items: center;
   gap: 5px;
   cursor: pointer;
 }
@@ -193,6 +193,7 @@ fieldset {
 }
 
 .content__details {
+  width: 100%;
   display: flex;
   align-items: stretch;
   flex-direction: column;
